@@ -1,5 +1,5 @@
 # Concurrent-bag-of-words-counter
-Concurrent solution to a problem of counting bag of words from text.
+Concurrent solution to a problem of counting of occurrences of bags of words from text.
 Bag of words is a certain combination of words (or just one word). Programm scans input file and counts occurences of all words/bag of words (of selected length). 
 Gui with simple user interface included. </br>
 
