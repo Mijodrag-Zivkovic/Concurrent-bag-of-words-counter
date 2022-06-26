@@ -23,5 +23,5 @@ This solution is divided into 3 components:
    
 When it comes to interconnectedness of components, Input Component can be connected to multiple crunchers from Cruncher Component, and vice versa. Only Output Component 
 has a single thread, and is connected with all crunchers. </br>
-Special request for this solution was to be able to handle 8 text files (sizes 70-100 mb) without using more than 4 gb of ram, which this solution successfully passes. </br>
+Special request for this solution was to be able to handle 8 text files (sizes 70-100 mb each) without using more than 4 gb of ram, which this solution successfully passes. </br>
 In order to test this solution, find some text files and place them in any (imaginary) partition (In "disk1"/"disk2" folder, subfolders named using single capital letter).
