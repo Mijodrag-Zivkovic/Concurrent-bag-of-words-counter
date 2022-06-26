@@ -17,7 +17,7 @@ This solution is divided into 3 components:
    results to our nexr component, Output Component.
    
 3. Output Component - this is the presentation layer of my solution. Whenever output recieves signal from cruncher that crunching has started, output displays name of the file,
-   beggining with an asterisk symbol ( "&ast"). When cruncher is done, ti will send full results, and Output component will remove asterisk from file name, signaling users 
+   beggining with an asterisk symbol. When cruncher is done, ti will send full results, and Output component will remove asterisk from file name, signaling users 
    that results are ready for displaying. User can then select file to see it's results, which will be shown on a graph in the middle of Gui.
    Output component also allows users to select a number of results, then sum them, which will display words with the most occurences from all selected files. 
    
